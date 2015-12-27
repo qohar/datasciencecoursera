@@ -14,3 +14,5 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * Activity -- Label of activity
 * Signal -- Type of measurement
 * Signal Average -- Mean value of the signal
+
+Detailed explanation and process of `run_analysis.R` is described in `CodeBook.md`.
