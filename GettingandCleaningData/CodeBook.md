@@ -5,7 +5,7 @@ This code book describes the variables, the data, and any transformations or wor
 The experiments have been carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 
 ## Variables
-The Human Activity Recognition data set contains over 500 measurements captured from the smartphone. The data set also contains 'subject', a range of numbers to indicate the person who performed the activity, and 'activity label', which links the class labels with their activity name. For this project, I mainly focused on these variables: 'subject', 'activity label', and mean of the mean and standard deviation measurements.
+The Human Activity Recognition data set contains over 500 measurements captured from the smartphone. The data set also contains 'subject', a range of numbers (1:30) to indicate the person who performed the activity, and 'activity label', which links the class labels with their activity name (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). For this project, I mainly focused on these variables: 'subject', 'activity label', and mean of the mean and standard deviation measurements.
 
 ## Transformation
 There are four steps involved in the process of cleaning the original data set to creating a tidy data set.
