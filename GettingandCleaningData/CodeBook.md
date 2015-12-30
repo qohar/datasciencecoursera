@@ -6,6 +6,11 @@ The experiments have been carried out with a group of 30 volunteers. Each person
 
 ## Variables
 The Human Activity Recognition data set contains over 500 measurements captured from the smartphone. The data set also contains 'subject', a range of numbers (1:30) to indicate the person who performed the activity, and 'activity label', which links the class labels with their activity name (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). For this project, I mainly focused on these variables: 'subject', 'activity label', and mean of the mean and standard deviation measurements.
+### Variables in tidyds data set  
+* Subjects -- The numerical indicator of the one who performed an activity
+* Activity -- Label of activity
+* Signal -- Type of measurement
+* Signal Average -- Mean value of the signal
 
 ## Transformation
 There are four steps involved in the process of cleaning the original data set to creating a tidy data set.
